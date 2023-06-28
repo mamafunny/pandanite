@@ -147,6 +147,13 @@ json getConfig(int argc, char**argv) {
         config["hostSources"].push_back("http://178.254.42.138:3000/peers");
         config["hostSources"].push_back("http://65.108.201.140:3000/peers");
         config["hostSources"].push_back("http://65.108.201.144:3000/peers");
+        config["hostSources"].push_back("http://157.245.51.181::3000/peers");
+        config["hostSources"].push_back("http://88.119.169.111:3000/peers");
+        config["hostSources"].push_back("http://5.9.151.50:3000/peers");
+        config["hostSources"].push_back("http://65.109.52.145:3000/peers");
+        config["hostSources"].push_back("http://65.21.224.171:3000/peers");
+        config["hostSources"].push_back("http://65.21.88.223:3000/peers");
+        config["hostSources"].push_back("http://65.21.89.182:3000/peers");
     }
     return config;
 }
