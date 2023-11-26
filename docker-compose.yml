@@ -8,6 +8,7 @@ services:
         tags:
           - ghcr.io/${GITHUB_REPOSITORY}:latest
           - ghcr.io/${GITHUB_REPOSITORY}:${GITHUB_SHA}
+          - ghcr.io/${GITHUB_REPOSITORY}:${GITHUB_BRANCH}
         platforms:
           - linux/amd64
           - linux/arm64
